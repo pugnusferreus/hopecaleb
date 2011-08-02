@@ -1,0 +1,15 @@
+markdown: rdiscount
+pygments: true
+
+exclude:
+  - deploy.sh
+
+author:
+  name: Benson Lim
+  
+title: Hope Caleb
+url: http://hopecaleb.com
+disqus_id: hopecaleb
+feed_url: http://hopecaleb.com/atom.xml
+
+disqus_id: hopecaleb

@@ -1,0 +1,25 @@
+---
+layout: default
+title: Caleb 3
+---
+<div class="bluebox">          
+  <p>Welcome to the Hope Church's Caleb 3 site.</p>
+  <p>
+    We're Hope Melbourne's young adult group. 
+    We keep our Life Group discussions here and also our testimonials on how the Holy Spirit has bless us.
+  </p>
+  <p>
+    If you're a non believer or a Christian who has lost the passion, feel free to read about our testimonial and our Life Group discussion.
+  </p>
+  <div class="cleaner">
+    &nbsp;
+  </div>
+</div>
+
+<div class="bluebox">
+  <h1>Life Group Discussions</h1>
+  {% for post in site.posts %}
+    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+  
+</div>
