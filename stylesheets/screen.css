@@ -28,6 +28,15 @@ p {
   padding: 2px;
 }
 
+h1 {
+  margin: 2px;
+  padding: 2px;
+}
+
+h2 {
+  margin: 2px;
+  padding: 2px;
+}
 a:hover {
 	visibility: visible;
 /* IE bug fix */

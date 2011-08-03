@@ -2,30 +2,33 @@
 layout: default
 title: Caleb 3
 ---
-<div class="bluebox">          
-  <p>Welcome to the Hope Church's Caleb 3 site.</p>
-  <p>
-    Why a website? Why can't we just form a Facebook group?
-    We believe that whatever comes out from our relationship with God and how God's grace has changed our lives,
-    we should put it down in some form of a scripture. 
-    Did the 12 apostles listen to Jesus and forget about it the following week? No, they wrote it down and that's
-    where most of the scriptures from the New Testament comes from.
-  </p>
-  <p>
-    From the book of Matthew 28:18 - 20:
-  </p>
-  <p>
-    18 Then Jesus came to them and said, <b>"All authority in heaven and on earth has been given to me.</b> 19 <b>Therefore go and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit, </b>20 <b>and teaching them to obey everything I have commanded you. And surely I am with you always, to the very end of the age."</b>
-  </p>
-  <div class="cleaner">
-    &nbsp;
+<div class="main">
+  <div class="bluebox">          
+    <p>Welcome to the Hope Church's Caleb 3 site.</p>
+    <p>
+      Why a website? Why can't we just form a Facebook group?
+      We believe that whatever comes out from our relationship with God and how God's grace has changed our lives,
+      we should put it down in some form of a scripture. 
+      Did the 12 apostles listen to Jesus and forget about it the following week? No, they wrote it down and that's
+      where most of the scriptures from the New Testament comes from.
+    </p>
+    <p>
+      From the book of Matthew 28:18 - 20:
+    </p>
+    <p>
+      18 Then Jesus came to them and said, <b>"All authority in heaven and on earth has been given to me.</b> 19 <b>Therefore go and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit, </b>20 <b>and teaching them to obey everything I have commanded you. And surely I am with you always, to the very end of the age."</b>
+    </p>
+    <div class="cleaner">
+      &nbsp;
+    </div>
   </div>
-</div>
 
-<div class="bluebox">
-  <h1>Life Group Discussions</h1>
-  {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-  
+  <div class="bluebox">
+    <h1>Life Group Discussions</h1>
+    
+    {% for post in site.posts %}
+      <span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a>
+    {% endfor %}
+    
+  </div>
 </div>
