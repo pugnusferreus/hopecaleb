@@ -295,3 +295,19 @@ fieldset>#send {
   background-color: #EAF2F5;
 }
 
+.testimonial
+{
+  margin-top: 15px;	
+}
+
+.testimonial h1
+{
+	text-align: left;
+	font-size: 12px;
+}
+
+.testimonial .footer
+{
+	text-align: right;
+	font-style:italic;
+}
