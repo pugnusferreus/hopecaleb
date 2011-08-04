@@ -24,8 +24,16 @@ title: Caleb 3
   </div>
 
   <div class="bluebox">
-    <h1>Life Group Discussions</h1>
-    
+    <h1>
+      Life Group Discussions
+      <a href="/atom.xml">
+        <img src="/images/rss.png" alt="rss" />
+      </a>
+    </h1>
+    <div>
+    <div class="question">
+      <a href="http://www.whatisrss.com/">What is RSS?</a>
+    </div>
     {% for post in site.posts %}
       <span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a>
     {% endfor %}
