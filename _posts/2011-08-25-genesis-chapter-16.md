@@ -60,7 +60,7 @@ title: The Book Of Genesis Chapter 16
     4. Genesis 16:2 said that “Abram agreed to what Sarai said”. Why did he agree? Would you have done the same thing? 
   </div>
   <div class="answer">
-    &nbsp;
+    Abram listens to the voice of his wife and ignores what God has already told him (see Gen 15).
   </div>
 
   <div class="question">
