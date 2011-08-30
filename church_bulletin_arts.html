@@ -1,0 +1,36 @@
+---
+layout: default
+title: Caleb 3
+---
+
+
+<div class="main">
+  <div class="bluebox">
+    <h1>
+      Arts
+    </h1>
+    <div id="bulletin"></div>  
+  </div>
+    
+</div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
+<script type="text/javascript"  src="/scripts/jqFlick.js"></script>
+
+<script>
+$(document).ready(function(){
+  
+  // Creating a flickr slider. This is 
+  // how you would probably use the plugin.
+  
+  $('#bulletin').jqFlick({
+    photosetID: '72157627552773602',
+    width:500,
+    height:520,
+    captions:true,
+    autoAdvance:false
+  });
+
+});
+
+</script>
