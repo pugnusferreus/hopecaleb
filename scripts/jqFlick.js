@@ -14,9 +14,9 @@
 		},options);
 		
 		// Using YQL and the flickr.photosets.photos table to query the Flickr API.
-		
+		var apiKey = "";
 		var YQL = 'http://query.yahooapis.com/v1/public/yql?q={QUERY}&format=json&callback=?',
-			query = "SELECT * FROM flickr.photosets.photos({MAX}) WHERE photoset_id='{PHOTOSET}'";
+			query = "SELECT * FROM flickr.photosets.photos({MAX}) WHERE photoset_id='{PHOTOSET}' and api_key=" + apiKey;
 		
 		// Replacing the "{EXAMPLE}" keywords from the strings:
 		
